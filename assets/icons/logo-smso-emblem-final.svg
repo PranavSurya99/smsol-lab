@@ -1,0 +1,34 @@
+<svg width="380" height="410" viewBox="0 0 380 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tf df">
+<title id="tf">Smart Mobility Systems and Operations Lab — Emblem</title>
+<desc id="df">The letters S, M, S, O in gold, teal, coral and white, each connected by a route line, with the words Smart, Mobility, Systems, and Operations beneath in matching colours, spelling out the acronym SMSO.</desc>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=IBM+Plex+Mono:wght@500&display=swap');
+  .badge{ fill:#10243E; stroke:#C9A227; stroke-width:3; }
+  .letter{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:78px; transition:transform .3s ease; transform-box:fill-box; transform-origin:center; }
+  .letter:hover{ transform:translateY(-6px); }
+  .c-smart{ fill:#C9A227; } .c-mobility{ fill:#3FC7C1; } .c-systems{ fill:#E2604A; } .c-ops{ fill:#EDF1F6; }
+  .dot{ fill:#C9A227; }
+  .connector{ stroke:#1B6F6F; stroke-width:2; opacity:.6; }
+  .divider{ stroke:#223353; stroke-width:1; }
+  .tag{ font-family:'IBM Plex Mono',monospace; font-size:14px; letter-spacing:2.5px; }
+  .caption{ font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:1.5px; fill:#9DAAC0; }
+</style>
+<rect class="badge" x="10" y="10" width="360" height="380" rx="28"/>
+<text class="letter c-smart" x="26" y="175">S</text>
+<text class="letter c-mobility" x="116" y="175">M</text>
+<text class="letter c-systems" x="210" y="175">S</text>
+<text class="letter c-ops" x="298" y="175">O</text>
+<line class="connector" x1="55" y1="192" x2="150" y2="192"/>
+<line class="connector" x1="150" y1="192" x2="245" y2="192"/>
+<line class="connector" x1="245" y1="192" x2="335" y2="192"/>
+<circle class="dot" cx="55" cy="192" r="5"/>
+<circle class="dot" cx="150" cy="192" r="5"/>
+<circle class="dot" cx="245" cy="192" r="5"/>
+<circle class="dot" cx="335" cy="192" r="5"/>
+<line class="divider" x1="30" y1="215" x2="350" y2="215"/>
+<text class="tag c-smart" x="190" y="245" text-anchor="middle">SMART</text>
+<text class="tag c-mobility" x="190" y="269" text-anchor="middle">MOBILITY</text>
+<text class="tag c-systems" x="190" y="293" text-anchor="middle">SYSTEMS</text>
+<text class="tag c-ops" x="190" y="317" text-anchor="middle">&amp; OPERATIONS</text>
+<text class="caption" x="190" y="350" text-anchor="middle">IIT (BHU) VARANASI</text>
+</svg>
