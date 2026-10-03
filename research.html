@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research · Smart Mobility Systems and Operations Lab</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" style="text-decoration:none;">
+      <div class="brand-mark"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="th dh"><title id="th">SMSO Lab mark</title><desc id="dh">A gold hub connected by four teal spokes to four outer nodes on a navy circular badge, one spoke per letter of Smart, Mobility, Systems, Operations.</desc><style>.h-bg{fill:#10243E;}.h-ring{fill:none;stroke:#1B6F6F;stroke-width:2;opacity:.5;}.h-spoke{stroke:#3FC7C1;stroke-width:5;stroke-linecap:round;transition:stroke-width .25s ease;}svg:hover .h-spoke{stroke-width:6;}.h-node{fill:#3FC7C1;stroke:#10243E;stroke-width:2;transform-origin:center;transform-box:fill-box;transition:transform .3s ease;}svg:hover .h-node{transform:scale(1.25);}.h-hub{fill:#C9A227;stroke:#FFFFFF;stroke-width:2.5;transform-origin:center;transform-box:fill-box;transition:transform .4s ease;}svg:hover .h-hub{transform:rotate(20deg);}</style><circle class="h-bg" cx="60" cy="60" r="58"/><circle class="h-ring" cx="60" cy="60" r="50"/><line class="h-spoke" x1="60" y1="60" x2="60" y2="26"/><line class="h-spoke" x1="60" y1="60" x2="94" y2="60"/><line class="h-spoke" x1="60" y1="60" x2="60" y2="94"/><line class="h-spoke" x1="60" y1="60" x2="26" y2="60"/><circle class="h-node" cx="60" cy="26" r="7"/><circle class="h-node" cx="94" cy="60" r="7"/><circle class="h-node" cx="60" cy="94" r="7"/><circle class="h-node" cx="26" cy="60" r="7"/><circle class="h-hub" cx="60" cy="60" r="13"/></svg></div>
+      <div class="brand-text">
+        <div class="name">Smart Mobility Systems and Operations Lab</div>
+        <div class="sub">IIT (BHU) VARANASI</div>
+      </div>
+    </a>
+    <nav class="route" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a class="current" href="research.html">Research</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <canvas id="network-canvas" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;opacity:.35;pointer-events:none;"></canvas>
+  <div class="page-hero-inner">
+    <h1>Research</h1>
+    <p class="lede">Our research applies operations research, applied mathematical modelling, and data analytics to real problems in public systems — mostly transportation, but increasingly healthcare logistics and the circular economy too.</p>
+  </div>
+</div>
+
+<main>
+
+  <section id="transit">
+    <div class="section-head reveal"><span class="num">01</span><h2>Public transportation planning</h2></div>
+    <p class="section-intro">We design scheduling and operations tools that transit agencies can actually deploy on the data they already collect.</p>
+    <div class="grid cols-2">
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Bus scheduling &amp; timetabling</h3>
+        <p>Network-aware automated bus scheduling to reduce overlap, cut operating cost, and improve punctuality — deployed with BMTC and DTC.</p>
+      </div>
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Crew &amp; fleet optimisation</h3>
+        <p>Crew rostering and fleet assignment models that minimise overtime cost while meeting service-level requirements.</p>
+      </div>
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Service analytics dashboards</h3>
+        <p>Travel-time and passenger-demand prediction dashboards built directly on GTFS feeds and GPS pings, e.g. the DAKSH platform for DTC Delhi.</p>
+      </div>
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Accessibility &amp; network equity</h3>
+        <p>Accessibility indicators based on travel time and walking thresholds, used to inform equitable network-planning decisions (e.g. Rajkot).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="emobility">
+    <div class="section-head reveal"><span class="num">02</span><h2>Electric &amp; sustainable mobility</h2></div>
+    <p class="section-intro">As agencies electrify their fleets, we help them plan the infrastructure and schedules that make the transition financially viable.</p>
+    <div class="grid cols-2">
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Charging infrastructure planning</h3>
+        <p>Optimisation frameworks for integrated charging-facility planning and priority-based charger allocation, including rural battery-electric bus systems.</p>
+      </div>
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Charger &amp; battery scheduling</h3>
+        <p>Electric bus charger scheduling that accounts for peak load and battery degradation costs under mixed diesel/electric operation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resilience">
+    <div class="section-head reveal"><span class="num">03</span><h2>Disaster resilience &amp; crowd safety</h2></div>
+    <p class="section-intro">Earlier work in the lab focused on evacuation planning and safe crowd flow — a thread that continues into current railway-resilience research.</p>
+    <div class="grid cols-2">
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Mass-evacuation planning</h3>
+        <p>Robust and operating strategies for bus-based evacuation, and pedestrian control measures for mass gatherings.</p>
+      </div>
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Resilient railway networks</h3>
+        <p>Optimal allocation and strategic placement of railroad accident-relief equipment using simulation-based decision tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="logistics">
+    <div class="section-head reveal"><span class="num">04</span><h2>Sustainable &amp; last-mile logistics</h2></div>
+    <p class="section-intro">We extend the same optimisation toolkit beyond transit — into healthcare supply chains, e-commerce logistics, and maritime freight.</p>
+    <div class="grid cols-2">
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Sustainable blood supply chain</h3>
+        <p>Reverse-logistics models to minimise waste in blood supply chains through optimised redistribution.</p>
+      </div>
+      <div class="card reveal">
+        <div class="stop-index">Line</div>
+        <h3>Last-mile &amp; parcel logistics</h3>
+        <p>Optimal location and capacity planning for parcel lockers, drone-based last-mile delivery, and sustainable last-mile logistics models.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <div class="section-head reveal"><span class="num">05</span><h2>Tools &amp; methods we use</h2></div>
+    <div class="tag-cloud reveal">
+      <span>Mixed-Integer Programming</span>
+      <span>Python</span>
+      <span>Gurobi / CPLEX</span>
+      <span>Discrete-Event Simulation</span>
+      <span>GTFS &amp; GPS data pipelines</span>
+      <span>Queueing Theory</span>
+      <span>Stochastic Optimization</span>
+      <span>Network Flow Models</span>
+      <span>MATLAB</span>
+      <span>R / Statistical Modelling</span>
+      <span>Heuristics &amp; Metaheuristics</span>
+      <span>Machine Learning for Demand Forecasting</span>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>© <span id="year"></span> Smart Mobility Systems and Operations Lab, IIT (BHU) Varanasi</div>
+    <div class="footer-links">
+      <a href="https://www.iitbhu.ac.in/dept/mec" target="_blank" rel="noopener">Dept. of Mechanical Engineering</a>
+      <a href="https://www.iitbhu.ac.in" target="_blank" rel="noopener">IIT (BHU) Varanasi</a>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
